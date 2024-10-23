@@ -1,0 +1,423 @@
+/* General Reset 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #df5f04;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Section *
+header {
+    background-color: #df5f04;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5em;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    color: #f4b400;
+}
+
+/* Hero Section 
+.content-image {
+    width: 100%;
+    height: 70vh; /* Adjust as needed *
+    background-image: url('sams.jpg');  Replace with your background image 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.content-content {
+    background-color: #fff; /* Optional background color for contrast 
+    padding: 2em 0;          Padding around the text 
+    width: 100%;
+}
+
+.content h2 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    color:#df5f04;
+}
+
+.content p {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    color: #df5f04;
+}
+
+.content .btn {
+    background-color: #f4b400;
+    color: #333;
+    padding: 0.75em 1.5em;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.content .btn:hover {
+    background-color: #e5a300;
+}
+
+/* Deals Section *
+.deals {
+    padding: 4em 0;
+    text-align: center;
+}
+
+.deals h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+.deals img {
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Menu Section *
+.menu {
+    background-color: #fff;
+    padding: 4em 0;
+    text-align: center;
+}
+
+.menu h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.menu-item {
+    background-color: floralwhite;
+    border-radius: 10px;
+    padding: 1.5em;
+    width: 200px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.menu img {
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Contact Section *
+.contact {
+    padding: 4em 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+.contact p {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+/* Footer *
+footer {
+    background-color: #df5f04;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
+
+footer p {
+    margin-bottom: 0;
+    font-size: 1em;
+}
+
+Responsive Design 
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .menu-items {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .hero h2 {
+        font-size: 2.5em;
+    }
+
+    .hero p {
+        font-size: 1.2em;
+    }
+
+    .hero .btn {
+        font-size: 1em;
+    }
+} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #df5f04;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Section */
+header {
+    background-color: #df5f04;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5em;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    color: #f4b400;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.hero-image {
+    width: 100%;
+    height: 90vh; /* Adjust as needed */
+    background-image: url('sams.jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-content {
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white for contrast */
+    padding: 2em 0;         /* Padding around the text */
+    width: 100%;
+}
+
+.hero-content h2 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    color: #df5f04;
+}
+
+.hero-content p {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    color: #df5f04;
+}
+
+.hero-content .btn {
+    background-color: #f4b400;
+    color: #333;
+    padding: 0.75em 1.5em;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.hero-content .btn:hover {
+    background-color: #e5a300;
+}
+
+/* Deals Section */
+.deals {
+    padding: 4em 0;
+    text-align: center;
+}
+
+.deals h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+.deals img {
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Menu Section */
+.menu {
+    background-color: #fff;
+    padding: 4em 0;
+    text-align: center;
+}
+
+.menu h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.menu-item {
+    background-color: floralwhite;
+    border-radius: 10px;
+    padding: 1.5em;
+    width: 200px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.menu img {
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Contact Section */
+.contact {
+    padding: 4em 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+.contact p {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+/* Footer */
+footer {
+    background-color: #df5f04;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
+
+footer p {
+    margin-bottom: 0;
+    font-size: 1em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .menu-items {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .hero-content h2 {
+        font-size: 2.5em;
+    }
+
+    .hero-content p {
+        font-size: 1.2em;
+    }
+
+    .hero-content .btn {
+        font-size: 1em;
+    }
+}
+
+
